@@ -16,6 +16,6 @@ public class WeekDayController {
         } catch (IllegalArgumentException e) {
             return "Invalid day of week";
         }
-        return "Russian name "+ englishDay + " = " + russianDay;
+        return "Russian name " + englishDay + " = " + russianDay;
     }
 }

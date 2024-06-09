@@ -2,13 +2,7 @@ package ru.kseniamedvedeva.days_of_the_week;
 
 public class DaysOfWeek {
     public enum DayOfWeek {
-        monday("Понедельник"),
-        tuesday("Вторник"),
-        wednesday("Среда"),
-        thursday("Четверг"),
-        friday("Пятница"),
-        saturday("Суббота"),
-        sunday("Воскресенье");
+        monday("Понедельник"), tuesday("Вторник"), wednesday("Среда"), thursday("Четверг"), friday("Пятница"), saturday("Суббота"), sunday("Воскресенье");
 
         private String russianName;
 
